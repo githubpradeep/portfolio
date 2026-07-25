@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Pradeep Borado — Staff Engineer building local LLM systems, Metal GPU kernels, and from-scratch ML."
+    />
+    <title>Pradeep Borado</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,700&family=IBM+Plex+Mono:wght@400;500&family=Source+Serif+4:opsz,ital,wght@8..60,400;8..60,500;8..60,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="noise" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="mark" href="#top">PB</a>
+      <nav class="nav">
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a
+        class="nav-ext"
+        href="https://github.com/githubpradeep"
+        target="_blank"
+        rel="noopener noreferrer"
+        >GitHub</a
+      >
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-label="Introduction">
+        <div class="hero-atmosphere" aria-hidden="true">
+          <div class="hero-grid"></div>
+          <div class="hero-orb hero-orb-a"></div>
+          <div class="hero-orb hero-orb-b"></div>
+        </div>
+
+        <div class="hero-inner">
+          <p class="hero-kicker reveal">Staff Engineer · Bengaluru</p>
+          <h1 class="hero-name reveal">
+            <span class="name-line">Pradeep</span>
+            <span class="name-line accent-line">Borado</span>
+          </h1>
+          <p class="hero-lede reveal">
+            I build local inference stacks, Metal GPU operators, and
+            from-scratch learning systems — the kind of code that runs close to
+            the silicon.
+          </p>
+          <div class="hero-actions reveal">
+            <a class="btn btn-primary" href="#work">See selected work</a>
+            <a
+              class="btn btn-ghost"
+              href="https://github.com/githubpradeep"
+              target="_blank"
+              rel="noopener noreferrer"
+              >githubpradeep</a
+            >
+          </div>
+        </div>
+
+        <div class="hero-scroll" aria-hidden="true">
+          <span></span>
+        </div>
+      </section>
+
+      <section id="work" class="section work">
+        <div class="section-head">
+          <p class="eyebrow">Selected work</p>
+          <h2>Projects that show how I think.</h2>
+          <p class="section-lede">
+            Open-source experiments in Rust, Metal, CUDA, and pure NumPy —
+            inference servers, coding agents, and RL written without the usual
+            frameworks.
+          </p>
+        </div>
+
+        <ol class="project-list">
+          <li class="project reveal" data-accent="teal">
+            <a
+              class="project-link"
+              href="https://github.com/githubpradeep/metal-llm-server"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div class="project-meta">
+                <span class="project-index">01</span>
+                <span class="project-lang">Rust · Metal</span>
+                <span class="project-stars">4★</span>
+              </div>
+              <h3>metal-llm-server</h3>
+              <p>
+                Local Gemma4 inference on Apple Silicon — Metal kernels,
+                OpenAI-compatible API, continuous batching, and zero-copy GGUF
+                loads.
+              </p>
+              <span class="project-cta">View repository</span>
+            </a>
+          </li>
+
+          <li class="project reveal" data-accent="ink">
+            <a
+              class="project-link"
+              href="https://github.com/githubpradeep/rs-agent"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div class="project-meta">
+                <span class="project-index">02</span>
+                <span class="project-lang">Rust</span>
+              </div>
+              <h3>rs-agent</h3>
+              <p>
+                An RLM-style recursive coding agent with a real TUI, local
+                tools, and a skills system — big context stays outside the model
+                window.
+              </p>
+              <span class="project-cta">View repository</span>
+            </a>
+          </li>
+
+          <li class="project reveal" data-accent="copper">
+            <a
+              class="project-link"
+              href="https://github.com/githubpradeep/2048-rl"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div class="project-meta">
+                <span class="project-index">03</span>
+                <span class="project-lang">Python · NumPy</span>
+                <span class="project-stars">1★</span>
+              </div>
+              <h3>2048-rl</h3>
+              <p>
+                A from-scratch RL arcade — custom DQN, Adam, and replay — across
+                2048, Tetris, Breakout, Pong, and more. No Gymnasium. No SB3.
+              </p>
+              <span class="project-cta">View repository</span>
+            </a>
+          </li>
+
+          <li class="project reveal" data-accent="teal">
+            <a
+              class="project-link"
+              href="https://github.com/githubpradeep/metal-operators"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div class="project-meta">
+                <span class="project-index">04</span>
+                <span class="project-lang">Rust · Metal</span>
+                <span class="project-stars">1★</span>
+              </div>
+              <h3>metal-operators</h3>
+              <p>
+                GPU KMeans, KNN, and PCA on Apple Metal — Lloyd’s algorithm
+                entirely on-device, with multiple kernel variants for speed.
+              </p>
+              <span class="project-cta">View repository</span>
+            </a>
+          </li>
+
+          <li class="project reveal" data-accent="ink">
+            <a
+              class="project-link"
+              href="https://github.com/githubpradeep/notebooks"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div class="project-meta">
+                <span class="project-index">05</span>
+                <span class="project-lang">Jupyter</span>
+                <span class="project-stars">52★</span>
+              </div>
+              <h3>notebooks</h3>
+              <p>
+                A living lab of LLM compression, RAG, fine-tuning, and vision
+                experiments — the most-starred collection on my GitHub.
+              </p>
+              <span class="project-cta">View repository</span>
+            </a>
+          </li>
+
+          <li class="project reveal" data-accent="copper">
+            <a
+              class="project-link"
+              href="https://github.com/githubpradeep/openchessengine"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div class="project-meta">
+                <span class="project-index">06</span>
+                <span class="project-lang">JS · Rust</span>
+                <span class="project-stars">1★</span>
+              </div>
+              <h3>openchessengine</h3>
+              <p>
+                Dependency-free chess UI plus a native Rust engine with
+                alpha-beta search, transposition tables, and Stockfish match
+                harnesses.
+              </p>
+              <span class="project-cta">View repository</span>
+            </a>
+          </li>
+        </ol>
+
+        <div class="more-work reveal">
+          <p class="eyebrow">Also on GitHub</p>
+          <ul class="chip-list">
+            <li>
+              <a
+                href="https://github.com/githubpradeep/cuda_mnist"
+                target="_blank"
+                rel="noopener noreferrer"
+                >cuda_mnist — MLP kernels without cuBLAS</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://github.com/githubpradeep/LLama2J"
+                target="_blank"
+                rel="noopener noreferrer"
+                >LLama2J — Llama2.c ported to Java</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://github.com/githubpradeep/lngrs"
+                target="_blank"
+                rel="noopener noreferrer"
+                >lngrs — a small language in Rust</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://github.com/githubpradeep/mnist-auto"
+                target="_blank"
+                rel="noopener noreferrer"
+                >mnist-auto — CAEL experimentation harness</a
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="about" class="section about">
+        <div class="about-grid">
+          <div class="about-copy">
+            <p class="eyebrow reveal">About</p>
+            <h2 class="reveal">Systems first. Models second.</h2>
+            <p class="reveal">
+              I’m a Staff Engineer at DISH Network Technologies in Bengaluru,
+              with prior time at Morgan Stanley. Outside product work I dig into
+              the metal — writing inference servers, GPU operators, and learning
+              loops by hand so the abstractions stay honest.
+            </p>
+            <p class="reveal">
+              The through-line across my repos is the same: understand the
+              algorithm deep enough to implement it without the framework, then
+              make it fast where the hardware actually lives.
+            </p>
+          </div>
+          <aside class="about-aside reveal">
+            <h3>Focus</h3>
+            <ul>
+              <li>Local LLM inference</li>
+              <li>Apple Metal / CUDA kernels</li>
+              <li>Reinforcement learning from scratch</li>
+              <li>Agent tooling &amp; recursive LM patterns</li>
+              <li>Rust systems programming</li>
+            </ul>
+            <p class="aside-note">
+              <span>GitHub</span>
+              <a
+                href="https://github.com/githubpradeep"
+                target="_blank"
+                rel="noopener noreferrer"
+                >@githubpradeep</a
+              >
+              · 30 followers · since 2012
+            </p>
+          </aside>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact">
+        <div class="contact-panel reveal">
+          <p class="eyebrow">Contact</p>
+          <h2>Let’s build something close to the metal.</h2>
+          <p>
+            Open to conversations about inference systems, GPU work, and
+            ambitious side projects.
+          </p>
+          <div class="contact-actions">
+            <a
+              class="btn btn-primary"
+              href="https://github.com/githubpradeep"
+              target="_blank"
+              rel="noopener noreferrer"
+              >GitHub</a
+            >
+            <a
+              class="btn btn-ghost"
+              href="https://www.linkedin.com/in/pradeep-borado-3a1457379"
+              target="_blank"
+              rel="noopener noreferrer"
+              >LinkedIn</a
+            >
+            <a class="btn btn-ghost" href="mailto:pradeepborado@gmail.com"
+              >Email</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> Pradeep Borado</p>
+      <p class="footer-meta">Built from public work on GitHub</p>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
