@@ -50,7 +50,7 @@
             <span class="name-line accent-line">Borado</span>
           </h1>
           <p class="hero-lede reveal">
-            I build local inference stacks, Metal GPU operators, and
+            I build local inference stacks, compiled Metal kernels, and
             from-scratch learning systems — the kind of code that runs close to
             the silicon.
           </p>
@@ -77,8 +77,8 @@
           <h2>Projects that show how I think.</h2>
           <p class="section-lede">
             Open-source experiments in Rust, Metal, CUDA, and pure NumPy —
-            inference servers, coding agents, and RL written without the usual
-            frameworks.
+            compiled inference stacks, coding agents, and RL written without
+            the usual frameworks.
           </p>
         </div>
 
@@ -86,12 +86,34 @@
           <li class="project reveal" data-accent="teal">
             <a
               class="project-link"
-              href="https://github.com/githubpradeep/metal-llm-server"
+              href="https://github.com/githubpradeep/ksearch"
               target="_blank"
               rel="noopener noreferrer"
             >
               <div class="project-meta">
                 <span class="project-index">01</span>
+                <span class="project-lang">Rust · Metal</span>
+                <span class="project-stars">1★</span>
+              </div>
+              <h3>ksearch</h3>
+              <p>
+                A Metal inference compiler for Gemma 4 — lowers GGUF to IR,
+                emits MSL, and uses BEAM search to pick tilings instead of a
+                pile of named kernels.
+              </p>
+              <span class="project-cta">View repository</span>
+            </a>
+          </li>
+
+          <li class="project reveal" data-accent="ink">
+            <a
+              class="project-link"
+              href="https://github.com/githubpradeep/metal-llm-server"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div class="project-meta">
+                <span class="project-index">02</span>
                 <span class="project-lang">Rust · Metal</span>
                 <span class="project-stars">4★</span>
               </div>
@@ -105,7 +127,7 @@
             </a>
           </li>
 
-          <li class="project reveal" data-accent="ink">
+          <li class="project reveal" data-accent="copper">
             <a
               class="project-link"
               href="https://github.com/githubpradeep/rs-agent"
@@ -113,7 +135,7 @@
               rel="noopener noreferrer"
             >
               <div class="project-meta">
-                <span class="project-index">02</span>
+                <span class="project-index">03</span>
                 <span class="project-lang">Rust</span>
               </div>
               <h3>rs-agent</h3>
@@ -126,7 +148,7 @@
             </a>
           </li>
 
-          <li class="project reveal" data-accent="copper">
+          <li class="project reveal" data-accent="teal">
             <a
               class="project-link"
               href="https://github.com/githubpradeep/2048-rl"
@@ -134,7 +156,7 @@
               rel="noopener noreferrer"
             >
               <div class="project-meta">
-                <span class="project-index">03</span>
+                <span class="project-index">04</span>
                 <span class="project-lang">Python · NumPy</span>
                 <span class="project-stars">1★</span>
               </div>
@@ -147,7 +169,7 @@
             </a>
           </li>
 
-          <li class="project reveal" data-accent="teal">
+          <li class="project reveal" data-accent="ink">
             <a
               class="project-link"
               href="https://github.com/githubpradeep/metal-operators"
@@ -155,7 +177,7 @@
               rel="noopener noreferrer"
             >
               <div class="project-meta">
-                <span class="project-index">04</span>
+                <span class="project-index">05</span>
                 <span class="project-lang">Rust · Metal</span>
                 <span class="project-stars">1★</span>
               </div>
@@ -168,7 +190,7 @@
             </a>
           </li>
 
-          <li class="project reveal" data-accent="ink">
+          <li class="project reveal" data-accent="copper">
             <a
               class="project-link"
               href="https://github.com/githubpradeep/notebooks"
@@ -176,7 +198,7 @@
               rel="noopener noreferrer"
             >
               <div class="project-meta">
-                <span class="project-index">05</span>
+                <span class="project-index">06</span>
                 <span class="project-lang">Jupyter</span>
                 <span class="project-stars">52★</span>
               </div>
@@ -189,7 +211,7 @@
             </a>
           </li>
 
-          <li class="project reveal" data-accent="copper">
+          <li class="project reveal" data-accent="teal">
             <a
               class="project-link"
               href="https://github.com/githubpradeep/openchessengine"
@@ -197,7 +219,7 @@
               rel="noopener noreferrer"
             >
               <div class="project-meta">
-                <span class="project-index">06</span>
+                <span class="project-index">07</span>
                 <span class="project-lang">JS · Rust</span>
                 <span class="project-stars">1★</span>
               </div>
@@ -272,7 +294,7 @@
             <h3>Focus</h3>
             <ul>
               <li>Local LLM inference</li>
-              <li>Apple Metal / CUDA kernels</li>
+              <li>Compiled Metal / CUDA kernels</li>
               <li>Reinforcement learning from scratch</li>
               <li>Agent tooling &amp; recursive LM patterns</li>
               <li>Rust systems programming</li>
